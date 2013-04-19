@@ -1,5 +1,5 @@
 var mongojs = require('mongojs');
-var db = mongojs('shemaroo', ['users', 'categories', 'items', 'ratings', 'history', 'settings', 'purchases', 'tokens']);
+var db = mongojs('project', ['users']);
 var _ = require('underscore');
 
 var ObjectId = mongojs.ObjectId;
